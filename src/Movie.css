@@ -1,0 +1,50 @@
+.movie-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.movie-icon {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+.guest-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header_optionLineOne {
+  font-size: 20px;
+}
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: end;
+  padding: 30px;
+  width: 950px;;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+}
+.movies-display {
+  display: flex;
+  flex-wrap: wrap;
+}
