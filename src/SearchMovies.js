@@ -7,7 +7,7 @@ function SearchMovies() {
     const searchMovie = async(e) =>{
         e.preventDefault();
         console.log("test")
-        const url = `http://www.omdbapi.com/?&apikey=e1a73560&s=${query}&type="movie"`;
+        const url = `https://www.omdbapi.com/?&apikey=e1a73560&s=${query}&type="movie"`;
             const response = await fetch(url);
             const data = await response.json();
             setMovies(data.Search);

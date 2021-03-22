@@ -9,7 +9,7 @@ function Movie() {
     //console.log(localStorage.getItem('userName'));
     const [movies , setMovies] = useState([]);
     const fun = async ()=>{
-        const result = await fetch('http://www.omdbapi.com/?s=Zindagi&apikey=263d22d8');
+        const result = await fetch('https://www.omdbapi.com/?s=Zindagi&apikey=263d22d8');
         const json = await result.json();
         //console.log(json)
         setMovies(json.Search);
